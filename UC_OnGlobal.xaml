@@ -1,0 +1,13 @@
+﻿<UserControl x:Class="WpfApp_Test.UC_OnGlobal"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WpfApp_Test"
+             mc:Ignorable="d" 
+             d:DesignHeight="263" d:DesignWidth="336">
+    <Grid>
+        <local:UC_On x:Name="onView"/>
+        <local:UC_Start x:Name="startView"/>
+    </Grid>
+</UserControl>
